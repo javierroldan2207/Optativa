@@ -10,3 +10,4 @@ const estadoApp = {
 
 const nuevoEstado = { ...estadoApp, total: 80, carrito: estadoApp.carrito.map(product => product.articulo === "Teclado") ? { ...product, cantidad: 2 } : product };
 
+//Ejercicio 2
